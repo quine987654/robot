@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico" />
+    <title>Robot</title>
+    <!-- <script src="./fontIcon/iconfont.js"></script> -->
+    <script src="/fontIcon/iconfont.js"></script>
+    <script src="/language/en.js?<%= new Date().getTime() %>"></script>
+    <script src="/language/zh-cn.js?<%= new Date().getTime() %>"></script>
+    <script src="/language/zh-hk.js?<%= new Date().getTime() %>"></script>
+    <script src="/config.js?<%= new Date().getTime() %>"></script>
+    <!-- 代码块及高亮 -->
+    <link
+      rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/styles/default.min.css"
+    />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/highlight.min.js"></script>
+
+    <link rel="stylesheet" href="https://unpkg.com/vant@2.12/lib/index.css" />
+    <!-- 语言及配置文件 -->
+
+    <style>
+      .icon {
+        width: 1em;
+        height: 1em;
+        vertical-align: -0.15em;
+        fill: currentColor;
+        overflow: hidden;
+      }
+    </style>
+  </head>
+  <body>
+    <noscript>
+      <strong
+        >We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work
+        properly without JavaScript enabled. Please enable it to
+        continue.</strong
+      >
+    </noscript>
+    <div id="app"></div>
+
+    <!-- built files will be auto injected  -->
+    <!-- http://10.192.1.108:8080/m/language/zh-hk.js?1658122726303 -->
+    <!-- http://10.192.1.108:8080/language/zh-cn.js?1658122938940 -->
+  </body>
+</html>

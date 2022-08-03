@@ -1,0 +1,29 @@
+<div class="more">
+<!-- <a href="javascript:;"> -->
+<!-- <a href={{ $t("header.doclink") }}>  -->
+<a href="https://docs.polysmartchain.com/">
+    {{ item.ft }}
+    <svg class="icon" aria-hidden="true">
+        <use xlink:href="#icon-arrowRight"></use>
+    </svg>
+    </a>
+</div> 
+
+<a href="javascript:;">
+    <div class="but2" @click="uti.goPath(store.link.dapp.box1Bt2)">
+      <!-- 如何创建一个DAPP -->
+      {{ $t("dapp.box1But2") }}
+    </div>
+  </a>
+
+  <div class="more">
+    <a
+      href="javascript:;"
+      @click="uti.goPath(store.link.com.box2List[index])"
+    >
+      {{ item.ft }}
+      <svg class="icon" aria-hidden="true">
+        <use xlink:href="#icon-arrowRight"></use>
+      </svg>
+    </a>
+  </div>

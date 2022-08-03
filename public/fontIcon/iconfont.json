@@ -1,0 +1,37 @@
+{
+  "id": "3548302",
+  "name": "机器人",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "2325910",
+      "name": "复制",
+      "font_class": "fuzhi1",
+      "unicode": "e636",
+      "unicode_decimal": 58934
+    },
+    {
+      "icon_id": "6548572",
+      "name": "添加",
+      "font_class": "tianjia",
+      "unicode": "e65e",
+      "unicode_decimal": 58974
+    },
+    {
+      "icon_id": "20009039",
+      "name": "机器人",
+      "font_class": "jiqiren",
+      "unicode": "e82f",
+      "unicode_decimal": 59439
+    },
+    {
+      "icon_id": "23728762",
+      "name": "素材库-1",
+      "font_class": "sucaiku-1",
+      "unicode": "e68a",
+      "unicode_decimal": 59018
+    }
+  ]
+}
